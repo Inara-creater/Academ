@@ -1,8 +1,14 @@
-public class File2 {
-    public static void main(String[] args) {
-        System.out.println("1");
+import java.util.Random;
 
-        final double v = 5.5;
+public class File2 {
+
+    public static void main(String[] args) {
+        Random random = new Random();
+        for (int i = 0; i < 10; i++) {
+            int rnd2 = random.nextInt(10)+11;
+            System.out.println(rnd2);
+        }
 
     }
+
 }

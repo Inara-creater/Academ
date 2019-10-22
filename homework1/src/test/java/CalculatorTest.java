@@ -32,7 +32,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void mixedOptions (){
+    public void mixedOptions () {
         assertEquals(calc.add(3,5), calc.div(24, 3 ));
         assertEquals(calc.sub(91, 9), calc.mul(9, 10) );
     }

@@ -12,7 +12,7 @@ public class Lesson4 {
     }
 
     public static void main(String[] args) {
-        int n = 30;
+        int n = 26;
         System.out.println(Lesson4.aZ(n));
     }
 }

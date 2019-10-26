@@ -1,3 +1,5 @@
+package Other;
+
 public class RandomString {
 
     public String process(String str, String strSet) {

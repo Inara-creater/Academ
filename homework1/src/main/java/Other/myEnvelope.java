@@ -1,3 +1,5 @@
+package Other;
+
 public class myEnvelope {
     public static void main(String[] args) {
         int width = 22;

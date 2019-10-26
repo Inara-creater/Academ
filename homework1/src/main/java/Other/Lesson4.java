@@ -1,4 +1,4 @@
-import java.util.Random;
+package Other;
 
 public class Lesson4 {
     static String aZ(int n) {

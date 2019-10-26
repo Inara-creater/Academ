@@ -1,4 +1,4 @@
-package HOMEWORKS.HW;
+package homework.hw1;
 import java.util.Random;
 import java.util.Scanner;
 public class hw1 {
@@ -20,5 +20,5 @@ public class hw1 {
                     System.out.println("Your number is too big. Please, try again.");
                 }
             } while (numberIs != imagine);
-            System.out.printf("Congratulations! ", name);
+            System.out.printf("Congratulations, %s ! " , name);
         }}

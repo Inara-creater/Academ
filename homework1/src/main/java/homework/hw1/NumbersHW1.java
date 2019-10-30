@@ -1,8 +1,9 @@
 package homework.hw1;
+import java.io.*;
 import java.util.Random;
 import java.util.Scanner;
-public class hw1 {
-        public static void main(String[] args) {
+ class NumbersHW1 implements Serializable {
+        public static void main(String[] args) throws IOException, ClassNotFoundException {
             Random newRan = new Random();
             Scanner newScn = new Scanner(System.in);
             int imagine = newRan.nextInt(101);
@@ -20,5 +21,16 @@ public class hw1 {
                     System.out.println("Your number is too big. Please, try again.");
                 }
             } while (numberIs != imagine);
-            System.out.printf("Congratulations, %s ! " , name);
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(
+                    new FileOutputStream("Number.out: "));
+            objectOutputStream.writeObject(numberIs);
+            objectOutputStream.close();
+
+            ObjectInputStream objectInputStream = new ObjectInputStream(
+                    new FileInputStream("Number.out: "));
+            NumbersHW1 numbersHW1  = (NumbersHW1) objectInputStream.readObject();
+            objectInputStream.close();
+
+
+            System.out.println("Got: " + numberIs + "\n");
         }}

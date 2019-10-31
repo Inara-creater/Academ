@@ -1,4 +1,4 @@
-package Other;
+package Other.FromLessons;
 
 public class Lesson4 {
     static String aZ(int n) {

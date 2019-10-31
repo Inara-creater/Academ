@@ -1,4 +1,4 @@
-package Other;
+package Other.thirtyOctober;
 
  class Arrays {
     public static void main(String[] args) {
@@ -13,5 +13,4 @@ package Other;
         System.out.println("Element at index : " + i + " : " + newint[i]);
     }
 
-
-}
+ }

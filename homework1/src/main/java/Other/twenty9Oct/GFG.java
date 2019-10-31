@@ -1,4 +1,4 @@
-package Other;
+package Other.twenty9Oct;
 
 import java.util.*;
 public class GFG {

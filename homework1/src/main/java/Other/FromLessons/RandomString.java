@@ -1,4 +1,4 @@
-package Other;
+package Other.FromLessons;
 
 public class RandomString {
 

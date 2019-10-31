@@ -1,4 +1,4 @@
-package Other;
+package Other.FromLessons;
 
 public class myEnvelope {
     public static void main(String[] args) {

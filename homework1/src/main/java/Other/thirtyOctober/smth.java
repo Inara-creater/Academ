@@ -1,3 +1,5 @@
+package Other.thirtyOctober;
+
 public class smth {
     public static void main(String[] args) {
         System.out.println(Math.max(5,10));

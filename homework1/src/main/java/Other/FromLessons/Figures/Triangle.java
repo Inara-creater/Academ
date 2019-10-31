@@ -1,4 +1,4 @@
-package Figures;
+package Other.FromLessons.Figures;
 
 import java.awt.*;
 

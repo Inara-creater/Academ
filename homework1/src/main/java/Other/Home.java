@@ -1,10 +1,10 @@
-package homework.hw1;
+package Other;
 
 import java.util.*;
 public class Home
 {
     static Scanner console = new Scanner (System.in);
-    public static void main (String []args)
+    public static void main (String[]args)
     {
 
         int x, y, z;

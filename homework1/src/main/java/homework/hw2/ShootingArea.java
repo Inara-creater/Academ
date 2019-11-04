@@ -25,11 +25,11 @@ public class ShootingArea {
 
 
 
-
+        System.out.println("All set. Get ready to rumble!");
         //infinity loop
         while (flag){
 
-            System.out.println("All set. Get ready to rumble!");
+
           //  System.out.println("chsnumber1 =  " + valueX + ",   = " + valueY);
             System.out.println("Please enter the first value : " );
             int chsnumber1 = scn.nextInt();

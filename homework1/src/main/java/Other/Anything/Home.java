@@ -1,4 +1,4 @@
-package Other;
+package Other.Anything;
 
 import java.util.*;
 public class Home

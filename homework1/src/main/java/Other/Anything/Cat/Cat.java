@@ -1,6 +1,6 @@
 package Other.Anything.Cat;
 
-public class Cat {
+public class Cat extends Animals {
 
     private int age;
     private String breed;
@@ -38,6 +38,10 @@ public class Cat {
         this.name = name;
     }
 
+    @Override
+    void eat() {
+
+    }
     public void say(){
         System.out.println("Meow");
     }

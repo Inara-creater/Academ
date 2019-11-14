@@ -7,7 +7,7 @@ public class LinkedList{
     }
 
     private Node first;
-    void add(int num) {
+    Node add(int num) {
         Node node = new Node();
         node.value = num;
 
@@ -19,13 +19,15 @@ public class LinkedList{
         node2.value = num;
         node2.next = node3;
 
+        return node;
+
 
     }
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        list.add(10);
-        list.add(20);
-        list.add(30);
+        Node node = list.add(10);
+        Node node1 = list.add(20);
+        Node node2 = list.add(30);
 
         System.out.println(list);
 

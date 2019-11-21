@@ -3,12 +3,10 @@ package Step;
 import java.util.Random;
 
 public class ID {
-    public static String generate(){
+public String generate(){
     Random random = new Random();
-    int letters = random.nextInt(26) + 'A';
-        int numbers = random.nextInt(100) + 100;
-        return String.valueOf((char)letters) + String.valueOf(numbers);
-
-
-    }
+    int number = random.nextInt(100) + 100;
+    int letter = random.nextInt(26) + 'A';
+    return String.valueOf((char)letter) + String.valueOf(number);
+}
     }

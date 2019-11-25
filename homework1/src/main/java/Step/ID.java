@@ -9,4 +9,5 @@ public String generate(){
     int letter = random.nextInt(26) + 'A';
     return String.valueOf((char)letter) + String.valueOf(number);
 }
+
     }

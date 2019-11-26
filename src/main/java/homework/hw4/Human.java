@@ -11,7 +11,7 @@ public class Human {
         System.out.println("Hello " + cat);
     }
     void describePet(){
-        System.out.println("I have a " +);
+        System.out.println("I have a " + 9);
     }
 
     @Override

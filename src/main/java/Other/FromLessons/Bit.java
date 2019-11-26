@@ -1,3 +1,5 @@
+package Other.FromLessons;
+
 public class Bit {
     public static void main(int a) {
 //        System.out.println(43&56);

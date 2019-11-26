@@ -1,3 +1,5 @@
+package Other.FromLessons;
+
 import java.util.Scanner;
 
 public class Palindrome {

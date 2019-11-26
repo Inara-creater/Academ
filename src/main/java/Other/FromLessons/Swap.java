@@ -1,3 +1,5 @@
+package Other.FromLessons;
+
 public class Swap {
     public static void main(String[] args) {
         int a = 7;

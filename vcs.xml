@@ -90,6 +90,10 @@
           <option name="url" value="https://github.com/Inara-creater/Academ.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/dan-it/az-groups/az-be2.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\User\IdeaProjects" />

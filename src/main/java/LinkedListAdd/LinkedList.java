@@ -1,5 +1,5 @@
 package LinkedListAdd;
-public class LinkedList{
+   public class LinkedList{
 
     class Node {
         int value;

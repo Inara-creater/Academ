@@ -1,6 +1,5 @@
 package homework.hw1;
 
-import java.lang.reflect.Array;
 import java.util.Random;
 import java.util.Scanner;
 public class RandomNum {
@@ -17,10 +16,11 @@ public class RandomNum {
             my_number = scanner.nextInt();
             if (my_number < random_generated) {
                 System.out.println("Your number is too small. Please, try again...");
-            } else if (my_number > random_generated) {
+            } else {
                 System.out.println("Your number is too big. Please, try again...");
             }
-        }            while (my_number != random_generated) ;
+        }            while (my_number != random_generated);
+        System.out.printf("%s Win!",name);
 
     }}
 

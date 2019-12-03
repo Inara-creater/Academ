@@ -5,7 +5,7 @@ public class RandomNum {
     Random random = new Random();
     int random_generated = random.nextInt(101);
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Hello amigo! What is your name: ");
+        System.out.println("Hello amigo! What is your name?");
         String name = scanner.nextLine();
         System.out.println("Let the game begin! Please insert your number: ");
         int my_number;
